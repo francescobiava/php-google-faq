@@ -15,9 +15,11 @@
 </head>
 <body>
   
-<?php
-  printFAQ($faq);
-?>
+  <div class="container">
+    <?php
+      printFAQ($faq);
+    ?>
+  </div>
 
 </body>
 </html>
