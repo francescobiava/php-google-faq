@@ -7,8 +7,17 @@
   <link rel="stylesheet" href="style.css">
   <title>Document</title>
 
+<?php
+  include 'data.php';
+  include 'helper.php';
+?>
+
 </head>
 <body>
   
+<?php
+  printFAQ($faq);
+?>
+
 </body>
 </html>
